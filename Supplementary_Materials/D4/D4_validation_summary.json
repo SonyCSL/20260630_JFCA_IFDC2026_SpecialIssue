@@ -1,0 +1,12 @@
+{
+  "cutoff_count": 199,
+  "distribution_count": 2587,
+  "expected_row_count": 1399567,
+  "formula_count": 541,
+  "input": "data/SupplementaryMaterial 2 Intensity Data KEGG.csv",
+  "max_probability_sum_abs_error": 1.1102230246251565e-15,
+  "max_retained_feature_count": 275,
+  "min_retained_feature_count": 1,
+  "profile_count": 13,
+  "row_count": 1399567
+}
