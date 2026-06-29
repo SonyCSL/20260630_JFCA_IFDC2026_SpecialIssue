@@ -10,7 +10,7 @@ Integrated formula-level intensity matrix.
 
 This matrix contains 541 formula-level features across 13 LC-MS analytical profiles. It is the integrated intensity matrix used as the fixed input for downstream intensity-cutoff, relative-abundance, Monte Carlo, diversity-estimation, and comparison analyses.
 
-The matrix is currently represented by the same underlying formula-intensity table as D2, with a D3-specific filename to match the Supplementary Data numbering used in the Methods.
+The table contains the formula identifier and the 13 analytical-profile intensity columns. Annotation identifiers and PCA diagnostic columns are not included in D3.
 
 ## Integrity
 

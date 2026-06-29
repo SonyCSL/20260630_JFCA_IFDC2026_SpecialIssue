@@ -9,11 +9,11 @@ Synecoculture versus conventional comparison summaries.
 
 ## Description
 
-D8 refers to statistical comparison summaries between Synecoculture and conventional tea profiles. The primary comparison output includes effect-size summaries such as Cliff's delta and related diagnostic statistics over the coverage-cutoff grid.
+D8 refers to statistical comparison outputs between Synecoculture and conventional tea profiles. The deposited payloads include aggregated comparison summaries (`comparison_agg`) and, where needed for replicate-level review or figure regeneration, Monte Carlo repetition-level comparison outputs (`comparison_outer`).
 
 The q=2 all-domain comparison summary files are larger than 100 MB after compression and are therefore not stored directly in GitHub. Their S3 object locations are listed in `D8_manifest.tsv`.
 
-Full `comparison_outer` tables are not treated as the default D8 payload because they are substantially larger than the aggregated comparison summaries.
+The aggregated `comparison_agg` files provide median and quantile summaries over the 24 Monte Carlo repetitions. The `comparison_outer` files preserve the 24 repetition-level contrast values and are required for regenerating box-and-whisker distribution plots from underlying contrast values.
 
 ## External Data
 
