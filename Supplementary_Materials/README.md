@@ -14,4 +14,6 @@ This directory contains Supplementary Data D2-D10 for the Chao1 intensity analys
 - `D9`: summary-mode and sensitivity-analysis manifests.
 - `D10`: figure-output manifests and small figure-support tables.
 
-Files larger than 100 MB are referenced through manifest files rather than stored directly in GitHub.
+Files larger than 100 MB are referenced through manifest files rather than stored directly in GitHub. Public external payloads are available through the CloudFront prefix:
+
+`https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/`

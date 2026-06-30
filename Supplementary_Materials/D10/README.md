@@ -13,12 +13,14 @@ Figure-output manifests and figure-support tables.
 
 D10 records visualization and result-reporting outputs. The current deposited scope is q=2 figure-support material for the analyzed domain-subset combinations. q=0 and q=1 figure outputs may be added later if generated and retained in the Methods.
 
-Large figure bundles are not stored directly in GitHub because they exceed the 100 MB repository threshold. Their S3 object locations are listed in `D10_manifest.tsv`.
+Large figure bundles are not stored directly in GitHub because they exceed the 100 MB repository threshold. Their external download locations are listed in `D10_manifest.tsv`.
 
 ## External Data
 
-Large D10 objects are listed under the S3 prefix:
+Large D10 objects are available under the CloudFront prefix:
 
-`s3://20260630-jfca-ifdc2026-specialissue/Chao1_Intensity/Supplementary_Materials/D10/`
+`https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D10/`
 
-Manifest rows marked `pending_external_upload` identify objects that still need to be deposited at the listed URI.
+| File | SHA-256 |
+| --- | --- |
+| [D10_q2_local_figure_bundles_20260629.tar.zst](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D10/D10_q2_local_figure_bundles_20260629.tar.zst) | [sha256](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D10/D10_q2_local_figure_bundles_20260629.tar.zst.sha256) |
