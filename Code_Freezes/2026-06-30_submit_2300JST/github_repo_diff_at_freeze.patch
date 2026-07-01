@@ -1,0 +1,165 @@
+ Supplementary_Materials/D10/D10_manifest.tsv |  1 +
+ Supplementary_Materials/D10/README.md        | 11 ++++++++++-
+ Supplementary_Materials/D10/SHA256SUMS.txt   | 22 ++++++++++++----------
+ Supplementary_Materials/D7/D7_manifest.tsv   |  1 +
+ Supplementary_Materials/D7/README.md         | 11 ++++++++++-
+ Supplementary_Materials/D7/SHA256SUMS.txt    |  5 +++--
+ Supplementary_Materials/D8/D8_manifest.tsv   |  2 ++
+ Supplementary_Materials/D8/README.md         | 12 +++++++++++-
+ Supplementary_Materials/D8/SHA256SUMS.txt    |  5 +++--
+ 9 files changed, 53 insertions(+), 17 deletions(-)
+
+--- git -C GitHub diff --no-ext-diff ---
+diff --git a/Supplementary_Materials/D10/D10_manifest.tsv b/Supplementary_Materials/D10/D10_manifest.tsv
+index 24ae878..9030455 100644
+--- a/Supplementary_Materials/D10/D10_manifest.tsv
++++ b/Supplementary_Materials/D10/D10_manifest.tsv
+@@ -1,2 +1,3 @@
+ analysis_id	q	figure_class	domains	subsets	source_path	raw_size	github_policy	external_uri	status
+ q2_local_figure_bundles	q2	coverage_cutoff_maps_masks_overlays_distribution_plots_ssc_figures	10	All/PM/SM	local:out_heatmap_cutoff_quantification_from_csv/stage2_q2_mask_labelrev4_20260627;stage2_q2_mask_labelrev5_priority_20260627;stage2_q2_all10_raw_fourthroot_safechunk6_20260624_191606;stage2_q2_all10_transform_sqrt_log1p_20260625_111513;stage2_q2_fig01_raw_sqrt_fourthroot_style2_all10_pmsm_periods_20260626_094804;stage2_q2_formula_ssc_raw_fourthroot_20260625_194341	5.67G_archive_input	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D10/D10_q2_local_figure_bundles_20260629.tar.zst	external_deposited
++q1_formula_brite_pathway_style_sync_figures	q1	coverage_cutoff_maps_masks_distribution_plots	3	All/PM/SM	GPUPC2:out_heatmap_cutoff_quantification_from_csv/stage2_q1_formula_brite_pathway_raw_gpupc2_20260629_000132_style_sync_20260630_1000	9.2G_archive_input	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D10/D10_q1_formula_brite_pathway_style_sync_figures_20260630.tar.zst	local_payload_pending_external_upload
+diff --git a/Supplementary_Materials/D10/README.md b/Supplementary_Materials/D10/README.md
+index a5737c6..763a42c 100644
+--- a/Supplementary_Materials/D10/README.md
++++ b/Supplementary_Materials/D10/README.md
+@@ -11,7 +11,7 @@ Figure-output manifests and figure-support tables.
+ 
+ ## Description
+ 
+-D10 records visualization and result-reporting outputs. The current deposited scope is q=2 figure-support material for the analyzed domain-subset combinations. q=0 and q=1 figure outputs may be added later if generated and retained in the Methods.
++D10 records visualization and result-reporting outputs. The current deposited scope includes q=2 figure-support material for the analyzed domain-subset combinations. A q=1 raw Formula/Brite/Pathway figure bundle has also been prepared locally after main-downstream style synchronization.
+ 
+ Large figure bundles are not stored directly in GitHub because they exceed the 100 MB repository threshold. Their external download locations are listed in `D10_manifest.tsv`.
+ 
+@@ -24,3 +24,12 @@ Large D10 objects are available under the CloudFront prefix:
+ | File | SHA-256 |
+ | --- | --- |
+ | [D10_q2_local_figure_bundles_20260629.tar.zst](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D10/D10_q2_local_figure_bundles_20260629.tar.zst) | [sha256](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D10/D10_q2_local_figure_bundles_20260629.tar.zst.sha256) |
++
++## Local Payloads Pending External Upload
++
++The following q=1 three-domain figure bundle has been compressed under
++`_S3_payloads/D10/` and is not tracked by Git:
++
++| File | Scope | Status |
++| --- | --- | --- |
++| `D10_q1_formula_brite_pathway_style_sync_figures_20260630.tar.zst` | q=1, raw, Formula/Brite/Pathway, All/PM/SM, annual/period/Combo, figure families `01`, `06`, `06_2` | `local_payload_pending_external_upload` |
+diff --git a/Supplementary_Materials/D10/SHA256SUMS.txt b/Supplementary_Materials/D10/SHA256SUMS.txt
+index 6c457d1..a568c29 100644
+--- a/Supplementary_Materials/D10/SHA256SUMS.txt
++++ b/Supplementary_Materials/D10/SHA256SUMS.txt
+@@ -1,10 +1,12 @@
+-506f81b4094bb62bb4c0063a8f6d384a33977a41ee274c014fbfe0f077e34d7d  ./D10_manifest.tsv
+-80b6dce343e1d6b4f7d6937cfc9cd450c7e4f787fc3e59f9ebe9c93a711064c4  ./README.md
+-2bce114209b2a2fc197c5dedabc811460455ad2b6d7c996d86f9fad44b8a459e  ./manifests/D10_figure01_boxplot_manifest.tsv
+-9ba0a8ec48d2201940068976b2bcd531536988f21764f825facff4c1aca89360  ./manifests/D10_formula_ssc0935_combo_manifest.csv
+-15844f1667007b359302e7f204b47972c35ea4b4b3733afe1cceeb0c94aea42e  ./manifests/D10_sqrt_all10_combo_manifest.csv
+-ed9a5d30b6fac120bda5ff5a2844d8de8f0dbb2f5f00bfd7647c553207fd839d  ./manifests/D10_sqrt_medium_large_overlay_manifest.csv
+-dab49a5d1f4fa77ca3f467b9412912bb6fb4bc866ba9ee316efbabae5a2939e4  ./manifests/D10_sqrt_period_color_mix_overlay_manifest.csv
+-430603ac7b85800fbc0c53f5939c05d8f96bcdcfc7c2a8667e94e9d3c7e54548  ./small_tables/D10_filtered_outer_fourthroot_q2_stage2_inext_sweep096.tsv.gz
+-2a412939706da5e99c2168e2c59652c7d39d835dfc25c11c43688ed2cabc5feb  ./small_tables/D10_filtered_outer_raw_q2_stage2_inext_sweep096.tsv.gz
+-50ab9e67b9c4e79c62a14c6b292623dcc8902f01540b8880cee0fd4bdb43442e  ./small_tables/D10_filtered_outer_sqrt_q2_stage2_inext_sweep096.tsv.gz
++734a0895919b597d7aabe1c46c1aebd7e2c2cc96000ee9b7d48da4d4f1f81a6f  D10_manifest.tsv
++8514cee69caa91b0d076830d4e5e195f6406c87a1eb8a83c3a14f33eb740262d  README.md
++2bce114209b2a2fc197c5dedabc811460455ad2b6d7c996d86f9fad44b8a459e  manifests/D10_figure01_boxplot_manifest.tsv
++9ba0a8ec48d2201940068976b2bcd531536988f21764f825facff4c1aca89360  manifests/D10_formula_ssc0935_combo_manifest.csv
++15844f1667007b359302e7f204b47972c35ea4b4b3733afe1cceeb0c94aea42e  manifests/D10_sqrt_all10_combo_manifest.csv
++ed9a5d30b6fac120bda5ff5a2844d8de8f0dbb2f5f00bfd7647c553207fd839d  manifests/D10_sqrt_medium_large_overlay_manifest.csv
++dab49a5d1f4fa77ca3f467b9412912bb6fb4bc866ba9ee316efbabae5a2939e4  manifests/D10_sqrt_period_color_mix_overlay_manifest.csv
++0bda0083c843404d8a395ae35553fa4a369893cae5e338b1e53a0c829549a180  manifests/D10_q1_formula_brite_pathway_combo_manifest.csv
++ac548d6c42d2ebbf3b539cab2b251ab374d61ff0f695a4962fd2fac9f171a502  manifests/D10_q1_formula_brite_pathway_downstream_run_note.txt
++2a412939706da5e99c2168e2c59652c7d39d835dfc25c11c43688ed2cabc5feb  small_tables/D10_filtered_outer_raw_q2_stage2_inext_sweep096.tsv.gz
++50ab9e67b9c4e79c62a14c6b292623dcc8902f01540b8880cee0fd4bdb43442e  small_tables/D10_filtered_outer_sqrt_q2_stage2_inext_sweep096.tsv.gz
++430603ac7b85800fbc0c53f5939c05d8f96bcdcfc7c2a8667e94e9d3c7e54548  small_tables/D10_filtered_outer_fourthroot_q2_stage2_inext_sweep096.tsv.gz
+diff --git a/Supplementary_Materials/D7/D7_manifest.tsv b/Supplementary_Materials/D7/D7_manifest.tsv
+index 76a5e08..5be9797 100644
+--- a/Supplementary_Materials/D7/D7_manifest.tsv
++++ b/Supplementary_Materials/D7/D7_manifest.tsv
+@@ -2,3 +2,4 @@ analysis_id	q	domains	subsets	cutoffs	source_path	raw_size	estimated_gzip_size	g
+ fourthroot_all10_group_summary	q2	10	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q2_all10_raw_fourthroot_safechunk6_20260624_191606/upstream_fourthroot_all10/group_summary_v36_9_q012.csv	2.5G	457M	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_fourthroot_all10_group_summary_v36_9_q2.csv.gz	external_deposited	group-level Stage 2 coverage diagnostics; Hill estimate columns are in D8 comparison payloads
+ sqrt_all10_group_summary	q2	10	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q2_all10_transform_sqrt_log1p_20260625_111513/upstream_sqrt_all10/group_summary_v36_9_q012.csv	2.4G	419M	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_sqrt_all10_group_summary_v36_9_q2.csv.gz	external_deposited	group-level Stage 2 coverage diagnostics; Hill estimate columns are in D8 comparison payloads
+ log1p_all10_group_summary	q2	10	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q2_all10_transform_sqrt_log1p_20260625_111513/upstream_log1p_all10/group_summary_v36_9_q012.csv	2.5G	465M	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_log1p_all10_group_summary_v36_9_q2.csv.gz	external_deposited	group-level Stage 2 coverage diagnostics; Hill estimate columns are in D8 comparison payloads
++q1_formula_brite_pathway_group_summary	q1	3	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q1_formula_brite_pathway_raw_gpupc2_20260629_000132/upstream_raw_q1/group_summary_v36_9_q012.csv	733M	115M	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_q1_formula_brite_pathway_group_summary_v36_9.csv.gz	local_payload_pending_external_upload	group-level Stage 2 q=1 coverage diagnostics for Formula/Brite/Pathway only; Hill comparison columns are in D8 comparison payloads
+diff --git a/Supplementary_Materials/D7/README.md b/Supplementary_Materials/D7/README.md
+index 68aa19e..4de71ad 100644
+--- a/Supplementary_Materials/D7/README.md
++++ b/Supplementary_Materials/D7/README.md
+@@ -11,7 +11,7 @@ Stage 2 Hill-number estimate summaries.
+ 
+ D7 refers to Stage 2 diversity-estimation outputs and coverage diagnostics over the coverage grid for each domain, metabolite subset, cutoff condition, and Monte Carlo repetition.
+ 
+-The q=2 all-domain group summary files are larger than 100 MB after compression and are therefore not stored directly in GitHub. Their external download locations are listed in `D7_manifest.tsv`.
++The q=2 all-domain group summary files and the q=1 Formula/Brite/Pathway group summary file are larger than 100 MB after compression and are therefore not stored directly in GitHub. Their external download locations or pending external-upload targets are listed in `D7_manifest.tsv`.
+ 
+ The current q=2 pipeline does not retain bootstrap replicate-level rows or formula-level Stage 1 count vectors as primary deposited data objects. Group-level coverage diagnostics are provided in D7. Hill-number point and bootstrap-summary columns used for statistical comparison are included in the D8 comparison payloads.
+ 
+@@ -26,3 +26,12 @@ Large D7 objects are available under the CloudFront prefix:
+ | [D7_fourthroot_all10_group_summary_v36_9_q2.csv.gz](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_fourthroot_all10_group_summary_v36_9_q2.csv.gz) | [sha256](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_fourthroot_all10_group_summary_v36_9_q2.csv.gz.sha256) |
+ | [D7_log1p_all10_group_summary_v36_9_q2.csv.gz](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_log1p_all10_group_summary_v36_9_q2.csv.gz) | [sha256](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_log1p_all10_group_summary_v36_9_q2.csv.gz.sha256) |
+ | [D7_sqrt_all10_group_summary_v36_9_q2.csv.gz](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_sqrt_all10_group_summary_v36_9_q2.csv.gz) | [sha256](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D7/D7_sqrt_all10_group_summary_v36_9_q2.csv.gz.sha256) |
++
++## Local Payloads Pending External Upload
++
++The following q=1 three-domain payload has been compressed under
++`_S3_payloads/D7/` and is not tracked by Git:
++
++| File | Scope | Status |
++| --- | --- | --- |
++| `D7_q1_formula_brite_pathway_group_summary_v36_9.csv.gz` | q=1, raw, Formula/Brite/Pathway, All/PM/SM, 199 cutoffs | `local_payload_pending_external_upload` |
+diff --git a/Supplementary_Materials/D7/SHA256SUMS.txt b/Supplementary_Materials/D7/SHA256SUMS.txt
+index 57a17f8..fa48fbe 100644
+--- a/Supplementary_Materials/D7/SHA256SUMS.txt
++++ b/Supplementary_Materials/D7/SHA256SUMS.txt
+@@ -1,2 +1,3 @@
+-7ddadfa546686db4d974ed0c6c419607c00d97971bfb4ed8ae36f3ef8cca5cbc  ./D7_manifest.tsv
+-029c6427a5350364749b02052f02a27be234ce2063b5d6f79be8ee3d3b12b4ed  ./README.md
++111dea856ec5c607a543d736d4c70fdb28a819b3469c534f312eae195c98978d  D7_manifest.tsv
++9345d304fe80f684fd283c212b4a2a8f685c8f6f6963d868c1e0624403770670  README.md
++cb73af76e4127dd4f23ac6d75d4acfab646db1ef77d7678fd56b699218a123c1  manifests/D7_q1_formula_brite_pathway_run_metadata_v36_9.json
+diff --git a/Supplementary_Materials/D8/D8_manifest.tsv b/Supplementary_Materials/D8/D8_manifest.tsv
+index 5d6a752..7ff44d3 100644
+--- a/Supplementary_Materials/D8/D8_manifest.tsv
++++ b/Supplementary_Materials/D8/D8_manifest.tsv
+@@ -5,3 +5,5 @@ log1p_all10_comparison_agg	q2	10	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q2_
+ fourthroot_all10_comparison_outer	q2	10	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q2_all10_raw_fourthroot_safechunk6_20260624_191606/upstream_fourthroot_all10/comparison_outer_v36_9_q012.csv	56G	6.9G_zstd	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_fourthroot_all10_comparison_outer_v36_9_q2.csv.zst	external_deposited
+ sqrt_all10_comparison_outer	q2	10	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q2_all10_transform_sqrt_log1p_20260625_111513/upstream_sqrt_all10/comparison_outer_v36_9_q012.csv	54G	6.2G_zstd	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_sqrt_all10_comparison_outer_v36_9_q2.csv.zst	external_deposited
+ log1p_all10_comparison_outer	q2	10	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q2_all10_transform_sqrt_log1p_20260625_111513/upstream_log1p_all10/comparison_outer_v36_9_q012.csv	56G	7.0G_zstd	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_log1p_all10_comparison_outer_v36_9_q2.csv.zst	external_deposited
++q1_formula_brite_pathway_comparison_agg	q1	3	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q1_formula_brite_pathway_raw_gpupc2_20260629_000132/upstream_raw_q1/comparison_agg_v36_9_q012.csv	768M	133M	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_q1_formula_brite_pathway_comparison_agg_v36_9.csv.gz	local_payload_pending_external_upload
++q1_formula_brite_pathway_comparison_outer	q1	3	All/PM/SM	199	GPUPC2:out_sensitivity/stage2_q1_formula_brite_pathway_raw_gpupc2_20260629_000132/upstream_raw_q1/comparison_outer_v36_9_q012.csv	17G	1.8G_zstd	S3_over_100MB	https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_q1_formula_brite_pathway_comparison_outer_v36_9.csv.zst	local_payload_pending_external_upload
+diff --git a/Supplementary_Materials/D8/README.md b/Supplementary_Materials/D8/README.md
+index 00d8fc5..2c3c9be 100644
+--- a/Supplementary_Materials/D8/README.md
++++ b/Supplementary_Materials/D8/README.md
+@@ -11,7 +11,7 @@ Synecoculture versus conventional comparison summaries.
+ 
+ D8 refers to statistical comparison outputs between Synecoculture and conventional tea profiles. The deposited payloads include aggregated comparison summaries (`comparison_agg`) and, where needed for replicate-level review or figure regeneration, Monte Carlo repetition-level comparison outputs (`comparison_outer`).
+ 
+-The q=2 all-domain comparison summary files are larger than 100 MB after compression and are therefore not stored directly in GitHub. Their external download locations are listed in `D8_manifest.tsv`.
++The q=2 all-domain comparison summary files and the q=1 Formula/Brite/Pathway comparison payloads are larger than 100 MB after compression and are therefore not stored directly in GitHub. Their external download locations or pending external-upload targets are listed in `D8_manifest.tsv`.
+ 
+ The aggregated `comparison_agg` files provide median and quantile summaries over the 24 Monte Carlo repetitions. The `comparison_outer` files preserve the 24 repetition-level contrast values and are required for regenerating box-and-whisker distribution plots from underlying contrast values.
+ 
+@@ -29,3 +29,13 @@ Large D8 objects are available under the CloudFront prefix:
+ | [D8_log1p_all10_comparison_outer_v36_9_q2.csv.zst](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_log1p_all10_comparison_outer_v36_9_q2.csv.zst) | [sha256](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_log1p_all10_comparison_outer_v36_9_q2.csv.zst.sha256) |
+ | [D8_sqrt_all10_comparison_agg_v36_9_q2.csv.gz](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_sqrt_all10_comparison_agg_v36_9_q2.csv.gz) | [sha256](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_sqrt_all10_comparison_agg_v36_9_q2.csv.gz.sha256) |
+ | [D8_sqrt_all10_comparison_outer_v36_9_q2.csv.zst](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_sqrt_all10_comparison_outer_v36_9_q2.csv.zst) | [sha256](https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/D8/D8_sqrt_all10_comparison_outer_v36_9_q2.csv.zst.sha256) |
++
++## Local Payloads Pending External Upload
++
++The following q=1 three-domain payloads have been compressed under
++`_S3_payloads/D8/` and are not tracked by Git:
++
++| File | Scope | Status |
++| --- | --- | --- |
++| `D8_q1_formula_brite_pathway_comparison_agg_v36_9.csv.gz` | q=1 aggregated comparison summaries | `local_payload_pending_external_upload` |
++| `D8_q1_formula_brite_pathway_comparison_outer_v36_9.csv.zst` | q=1 `OuterRep=24` repetition-level comparison values for boxplot regeneration | `local_payload_pending_external_upload` |
+diff --git a/Supplementary_Materials/D8/SHA256SUMS.txt b/Supplementary_Materials/D8/SHA256SUMS.txt
+index 7e87844..8922f18 100644
+--- a/Supplementary_Materials/D8/SHA256SUMS.txt
++++ b/Supplementary_Materials/D8/SHA256SUMS.txt
+@@ -1,2 +1,3 @@
+-f6397a0bed6e9d7860be7ec3c7f59d96034d165f35b22f7de23707bd653d0df8  ./D8_manifest.tsv
+-ce059757decd0e04568a130814911c658b711f56fdd98c39f63f534c466fb95c  ./README.md
++54cfeecd82a6ec851367306d5493223151388f2ec17352ec9a07220857f1b88d  D8_manifest.tsv
++0ea561a4b078725b608f967af911bc3ae56d77d2ec6e42cefaf85bcf557d3505  README.md
++cb73af76e4127dd4f23ac6d75d4acfab646db1ef77d7678fd56b699218a123c1  manifests/D8_q1_formula_brite_pathway_run_metadata_v36_9.json

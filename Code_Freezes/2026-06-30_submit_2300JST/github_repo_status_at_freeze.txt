@@ -1,0 +1,15 @@
+## main...company/main
+ M Supplementary_Materials/D10/D10_manifest.tsv
+ M Supplementary_Materials/D10/README.md
+ M Supplementary_Materials/D10/SHA256SUMS.txt
+ M Supplementary_Materials/D7/D7_manifest.tsv
+ M Supplementary_Materials/D7/README.md
+ M Supplementary_Materials/D7/SHA256SUMS.txt
+ M Supplementary_Materials/D8/D8_manifest.tsv
+ M Supplementary_Materials/D8/README.md
+ M Supplementary_Materials/D8/SHA256SUMS.txt
+?? Code_Freezes/
+?? Supplementary_Materials/D10/manifests/D10_q1_formula_brite_pathway_combo_manifest.csv
+?? Supplementary_Materials/D10/manifests/D10_q1_formula_brite_pathway_downstream_run_note.txt
+?? Supplementary_Materials/D7/manifests/
+?? Supplementary_Materials/D8/manifests/
