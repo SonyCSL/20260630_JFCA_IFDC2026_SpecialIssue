@@ -5,6 +5,7 @@ Figure-output manifests and figure-support tables.
 ## Files
 
 - `Data_10_manifest.tsv`: manifest of large Data 10 figure bundles stored outside GitHub.
+- `Figures/PPT/`: PowerPoint review decks tracked directly in GitHub.
 - `manifests/`: small figure, overlay, and combo manifests included directly in GitHub.
 - `small_tables/`: small compressed support tables for selected Figure 01 boxplot inputs.
 - `SHA256SUMS.txt`: SHA-256 checksums for files stored in this directory.
@@ -12,6 +13,10 @@ Figure-output manifests and figure-support tables.
 ## Description
 
 Data 10 records visualization and result-reporting outputs. The current deposited scope includes q=2 figure-support material for the analyzed domain-subset combinations. A q=1 raw Formula/Brite/Pathway figure bundle has also been prepared locally after main-downstream style synchronization.
+
+The `Figures/PPT/` directory contains GitHub-tracked review PowerPoint decks for q=0, q=1, and q=2. These decks are below the per-file GitHub size limit and are listed in `manifests/Data_10_figures_ppt_manifest_20260705.tsv`.
+
+The q=2 Coverage-cutoff contrast surface plot deck was rendered downstream from the existing labelrev4/raw_all10 cell-level CSV outputs. No upstream diversity estimates were recomputed for that deck.
 
 Large figure bundles are not stored directly in GitHub because they exceed the 100 MB repository threshold. Their external download locations are listed in `Data_10_manifest.tsv`.
 
