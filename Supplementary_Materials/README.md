@@ -1,19 +1,11 @@
 # Supplementary Materials
 
-This directory contains Supplementary Data 2-Data 10 for the Chao1 intensity analysis.
+This directory contains the public Supplementary Data 10 figure-deck package for the Chao1 intensity analysis.
 
 ## Directory Map
 
-- `Data 2`: Detected molecular formulae and per-sample LC-MS intensity values.
-- `Data 3`: Integrated formula-level intensity matrix used as the analysis input.
-- `Data 4`: Relative-abundance distributions after signed intensity cutoffs.
-- `Data 5`: Standard sample coverage setting and run manifests.
-- `Data 6`: Formula-to-domain and PM/SM subset mapping tables.
-- `Data 7`: Stage 2 Hill-number estimate summaries.
-- `Data 8`: Synecoculture versus conventional comparison summaries.
-- `Data 9`: Summary-mode and sensitivity-analysis manifests.
-- `Data 10`: Figure-output manifests and small figure-support tables.
+- `Data 10`: PowerPoint figure decks and the figure-deck manifest.
 
-Files larger than 100 MB are referenced through manifest files rather than stored directly in GitHub. Public external payloads are available through the CloudFront prefix:
+## Data Availability
 
-`https://d38f5mdcvtp0z3.cloudfront.net/JFCA_IFDC2026_SpecialIssue/`
+Figure decks and figure-level supplementary materials are provided in Data 10. Large intermediate analysis outputs corresponding to Data 2-9 are not publicly deposited because they are high-volume intermediate computational products with limited standalone interpretability without the full analysis environment. These materials are available from the corresponding author upon reasonable request at syneco-comm@csl.sony.co.jp.

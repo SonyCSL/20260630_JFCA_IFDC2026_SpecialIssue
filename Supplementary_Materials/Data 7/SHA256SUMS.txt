@@ -1,3 +1,0 @@
-9bc8879ab9131a18ba0a9c554b43fea297b12da3ba99063480dea0cca2c26599  ./Data_7_manifest.tsv
-52ab2c325fbe9b016d225f5e3d52bde3d0a683cf4ce9de93a8ba56fe1af1e53d  ./README.md
-cb73af76e4127dd4f23ac6d75d4acfab646db1ef77d7678fd56b699218a123c1  ./manifests/Data_7_q1_formula_brite_pathway_run_metadata_v36_9.json
