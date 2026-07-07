@@ -11,7 +11,7 @@ PowerPoint figure decks and figure-deck manifest.
 
 ## Description
 
-Data 10 records the public figure-level supplementary materials. The public package contains GitHub-tracked PowerPoint decks for q=0, q=1, and q=2 figure review.
+Data 10 records the public figure-level supplementary materials. The public package contains GitHub-tracked PowerPoint decks for q=0, q=1, and q=2 figure review, including the q2 alpha0 Fig01 boxplot sensitivity deck.
 
 The `Figures/PPT/` directory contains GitHub-tracked review PowerPoint decks for q=0, q=1, and q=2. These decks are below the per-file GitHub size limit and are listed in `manifests/Data_10_figures_ppt_manifest_20260706.tsv`.
 
