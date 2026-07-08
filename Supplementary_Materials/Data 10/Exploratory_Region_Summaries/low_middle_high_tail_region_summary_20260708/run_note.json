@@ -1,0 +1,40 @@
+{
+  "source_root": "/Users/nonaka/Documents/work/Rarefaction/Chao1_Intensity/out_heatmap_cutoff_quantification_from_csv/stage2_q2_mask_labelrev4_20260627/raw_all10",
+  "out_root": "/Users/nonaka/Documents/work/Rarefaction/Chao1_Intensity/out_heatmap_cutoff_quantification_from_csv/low_middle_high_tail_region_summary_20260708",
+  "github_root": "/Users/nonaka/Documents/work/Rarefaction/Chao1_Intensity/GitHub/Supplementary_Materials/Data 10/Exploratory_Region_Summaries/low_middle_high_tail_region_summary_20260708",
+  "domains": [
+    "Formula",
+    "Brite",
+    "Pathway"
+  ],
+  "subsets": [
+    "All",
+    "PM",
+    "SM"
+  ],
+  "modes": [
+    "Combo6yr",
+    "Period1_2015_2017",
+    "Period2_2018_2020"
+  ],
+  "q_label": "q2",
+  "estimate": "Stage2_iNEXT_TD_m_est",
+  "metric": "CliffsDelta",
+  "large_threshold": 0.474,
+  "n_values": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "render_n": [
+    3,
+    6
+  ],
+  "finite_grid_denominator_per_subset_mode": 19701,
+  "all100_grid_denominator_per_subset_mode": 19900,
+  "scope": "downstream summary from existing cell CSVs; no upstream recomputation",
+  "elapsed_sec": 29.635
+}

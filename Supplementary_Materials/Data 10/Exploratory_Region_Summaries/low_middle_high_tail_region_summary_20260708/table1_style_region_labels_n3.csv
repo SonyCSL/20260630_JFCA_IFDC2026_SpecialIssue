@@ -1,0 +1,7 @@
+Domain,Cultivation_System,All,PM,SM,All_Large_Eval_Pct,PM_Large_Eval_Pct,SM_Large_Eval_Pct,All_Dominance_Ratio,PM_Dominance_Ratio,SM_Dominance_Ratio
+Formula,Synecoculture,high signed-tail region (25.3%),high signed-tail region (18.3%),high signed-tail region (46.8%),25.344353,18.288950,46.770738,1.750529,1.422619,2.308157
+Formula,Conventional,low signed-tail region (92.1%),low signed-tail region (90.3%),low signed-tail region (56.7%),92.087542,90.342822,56.734007,2.930833,2.828462,2.508119
+Brite,Synecoculture,middle signed-cutoff region (10.6%),middle signed-cutoff region (10.0%),high signed-tail region (16.1%),10.628675,9.995477,16.115702,1.624424,1.227778,1.508596
+Brite,Conventional,low signed-tail region (89.4%),low signed-tail region (84.6%),low signed-tail region (85.1%),89.409244,84.603612,85.078053,2.233180,2.055783,2.422222
+Pathway,Synecoculture,middle signed-cutoff region (10.2%),high signed-tail region (13.9%),high signed-tail region (24.1%),10.236695,13.896541,24.058770,1.031915,1.170103,1.446182
+Pathway,Conventional,low signed-tail region (96.2%),low signed-tail region (95.4%),low signed-tail region (94.6%),96.173860,95.408632,94.628099,2.289253,2.262795,3.132219

@@ -1,0 +1,7 @@
+Domain	Cultivation_System	All	PM	SM	All_Large_Eval_Pct	PM_Large_Eval_Pct	SM_Large_Eval_Pct	All_Dominance_Ratio	PM_Dominance_Ratio	SM_Dominance_Ratio
+Formula	Synecoculture	entire signed-cutoff range (13.2%)	entire signed-cutoff range (10.3%)	entire signed-cutoff range (24.2%)	13.207451	10.329425	24.171362			
+Formula	Conventional	entire signed-cutoff range (41.3%)	entire signed-cutoff range (45.3%)	entire signed-cutoff range (26.3%)	41.277093	45.337800	26.318461			
+Brite	Synecoculture	entire signed-cutoff range (5.8%)	entire signed-cutoff range (6.1%)	entire signed-cutoff range (8.9%)	5.781432	6.106289	8.887874			
+Brite	Conventional	entire signed-cutoff range (54.5%)	entire signed-cutoff range (53.0%)	entire signed-cutoff range (40.0%)	54.530227	52.961779	39.972590			
+Pathway	Synecoculture	entire signed-cutoff range (6.8%)	entire signed-cutoff range (8.5%)	entire signed-cutoff range (13.5%)	6.786458	8.547789	13.496777			
+Pathway	Conventional	entire signed-cutoff range (59.1%)	entire signed-cutoff range (58.3%)	entire signed-cutoff range (48.7%)	59.052840	58.337140	48.687884			

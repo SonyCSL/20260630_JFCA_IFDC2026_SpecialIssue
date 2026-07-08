@@ -1,0 +1,7 @@
+Domain	Cultivation_System	All	PM	SM	All_Common_Large_Eval_Pct	PM_Common_Large_Eval_Pct	SM_Common_Large_Eval_Pct
+Formula	Synecoculture	bin 4/4: high signed-tail side (0.1%)	Limited common support	bin 2/4: low-to-middle signed-cutoff region (13.8%)	0.103072	0.000000	13.757576
+Formula	Conventional	bin 1/4: low signed-tail side (85.7%)	bin 1/4: low signed-tail side (66.8%)	bin 1/4: low signed-tail side (9.3%)	85.737374	66.767677	9.252525
+Brite	Synecoculture	bin 2/4: low-to-middle signed-cutoff region (9.1%)	bin 2/4: low-to-middle signed-cutoff region (10.1%)	bin 2/4: low-to-middle signed-cutoff region (3.6%)	9.131313	10.101010	3.595960
+Brite	Conventional	bin 1/4: low signed-tail side (88.3%)	bin 1/4: low signed-tail side (83.8%)	bin 1/4: low signed-tail side (74.5%)	88.303030	83.818182	74.464646
+Pathway	Synecoculture	bin 2/4: low-to-middle signed-cutoff region (9.0%)	bin 2/4: low-to-middle signed-cutoff region (10.4%)	bin 2/4: low-to-middle signed-cutoff region (14.2%)	8.969697	10.363636	14.181818
+Pathway	Conventional	bin 1/4: low signed-tail side (96.0%)	bin 1/4: low signed-tail side (93.9%)	bin 1/4: low signed-tail side (93.9%)	95.959596	93.939394	93.939394

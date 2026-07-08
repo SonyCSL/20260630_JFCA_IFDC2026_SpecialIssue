@@ -1,0 +1,7 @@
+Domain,Cultivation_System,All,PM,SM,All_Large_Eval_Pct,PM_Large_Eval_Pct,SM_Large_Eval_Pct,All_Dominance_Ratio,PM_Dominance_Ratio,SM_Dominance_Ratio
+Formula,Synecoculture,bin 2/2: high signed-tail side (16.9%),bin 2/2: high signed-tail side (12.2%),bin 2/2: high signed-tail side (31.2%),16.896235,12.192633,31.180492,1.750529,1.422619,1.791325
+Formula,Conventional,bin 1/2: low-to-middle signed-cutoff region (81.5%),bin 1/2: low-to-middle signed-cutoff region (80.7%),bin 1/2: low-to-middle signed-cutoff region (52.4%),81.515152,80.707071,52.373737,130.161290,8.481953,
+Brite,Synecoculture,bin 1/2: low-to-middle signed-cutoff region (7.1%),bin 1/2: low-to-middle signed-cutoff region (6.7%),bin 2/2: high signed-tail side (10.7%),7.121212,6.696970,10.743802,1.624424,1.227778,1.508596
+Brite,Conventional,bin 1/2: low-to-middle signed-cutoff region (82.1%),bin 1/2: low-to-middle signed-cutoff region (78.2%),bin 1/2: low-to-middle signed-cutoff region (79.3%),82.090909,78.232323,79.333333,3.106651,2.880253,374.000000
+Pathway,Synecoculture,bin 1/2: low-to-middle signed-cutoff region (6.9%),bin 2/2: high signed-tail side (9.3%),bin 2/2: high signed-tail side (16.0%),6.858586,9.264361,16.039180,1.031915,1.170103,1.446182
+Pathway,Conventional,bin 1/2: low-to-middle signed-cutoff region (89.8%),bin 1/2: low-to-middle signed-cutoff region (88.3%),bin 1/2: low-to-middle signed-cutoff region (82.4%),89.787879,88.262626,82.393939,3.238251,3.171688,5.684321

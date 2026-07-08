@@ -1,0 +1,7 @@
+Domain	Cultivation_System	All	PM	SM	All_Common_Large_Eval_Pct	PM_Common_Large_Eval_Pct	SM_Common_Large_Eval_Pct
+Formula	Synecoculture	high signed-tail region (0.1%)	Limited common support	middle signed-cutoff region (10.3%)	0.076523	0.000000	10.266848
+Formula	Conventional	low signed-tail region (87.5%)	low signed-tail region (70.7%)	low signed-tail region (9.2%)	87.465565	70.707071	9.198041
+Brite	Synecoculture	middle signed-cutoff region (6.8%)	middle signed-cutoff region (7.5%)	middle signed-cutoff region (2.7%)	6.814413	7.538067	2.683552
+Brite	Conventional	low signed-tail region (88.4%)	low signed-tail region (83.8%)	low signed-tail region (72.7%)	88.445057	83.823079	72.696664
+Pathway	Synecoculture	middle signed-cutoff region (6.7%)	middle signed-cutoff region (7.7%)	middle signed-cutoff region (10.6%)	6.693804	7.734057	10.583446
+Pathway	Conventional	low signed-tail region (96.0%)	low signed-tail region (93.9%)	low signed-tail region (93.9%)	95.959596	93.939394	93.939394
