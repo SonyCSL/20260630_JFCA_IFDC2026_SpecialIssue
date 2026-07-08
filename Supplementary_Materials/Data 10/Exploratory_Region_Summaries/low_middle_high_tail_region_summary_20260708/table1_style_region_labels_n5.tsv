@@ -1,7 +1,0 @@
-Domain	Cultivation_System	All	PM	SM	All_Large_Eval_Pct	PM_Large_Eval_Pct	SM_Large_Eval_Pct	All_Dominance_Ratio	PM_Dominance_Ratio	SM_Dominance_Ratio
-Formula	Synecoculture	bin 5/5: high signed-tail side (35.3%)	bin 5/5: high signed-tail side (21.0%)	bin 5/5: high signed-tail side (69.1%)	35.301735	20.979021	69.127169	1.476706	1.043814	2.364039
-Formula	Conventional	bin 1/5: low signed-tail side (91.9%)	bin 2/5: low signed-tail side (90.6%)	bin 2/5: low signed-tail side (76.9%)	91.868687	90.555556	76.868687	1.003033	1.015001	2.021248
-Brite	Synecoculture	bin 3/5: middle signed-cutoff region (17.8%)	bin 3/5: middle signed-cutoff region (16.7%)	bin 5/5: high signed-tail side (17.0%)	17.803030	16.742424	16.964517	1.674584	1.637037	1.061588
-Brite	Conventional	bin 2/5: low signed-tail side (90.7%)	bin 2/5: low signed-tail side (86.5%)	bin 2/5: low signed-tail side (84.6%)	90.681818	86.489899	84.595960	1.019012	1.030075	1.000299
-Pathway	Synecoculture	bin 3/5: middle signed-cutoff region (17.1%)	bin 3/5: middle signed-cutoff region (19.6%)	bin 5/5: high signed-tail side (27.2%)	17.146465	19.595960	27.246827	1.772846	1.661670	1.061554
-Pathway	Conventional	bin 2/5: low signed-tail side (96.8%)	bin 2/5: low signed-tail side (96.3%)	bin 1/5: low signed-tail side (94.2%)	96.843434	96.313131	94.217172	1.009211	1.013284	1.009470

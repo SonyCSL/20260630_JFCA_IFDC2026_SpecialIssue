@@ -1,4 +1,0 @@
-Domain	Source_CSV	Physical_Rows	Matched_Rows
-Formula	/Users/nonaka/Documents/work/Rarefaction/Chao1_Intensity/out_heatmap_cutoff_quantification_from_csv/stage2_q2_mask_labelrev4_20260627/raw_all10/Formula/csv/comparison_cells_filtered.csv	537300	179100
-Brite	/Users/nonaka/Documents/work/Rarefaction/Chao1_Intensity/out_heatmap_cutoff_quantification_from_csv/stage2_q2_mask_labelrev4_20260627/raw_all10/Brite/csv/comparison_cells_filtered.csv	537300	179100
-Pathway	/Users/nonaka/Documents/work/Rarefaction/Chao1_Intensity/out_heatmap_cutoff_quantification_from_csv/stage2_q2_mask_labelrev4_20260627/raw_all10/Pathway/csv/comparison_cells_filtered.csv	537300	179100

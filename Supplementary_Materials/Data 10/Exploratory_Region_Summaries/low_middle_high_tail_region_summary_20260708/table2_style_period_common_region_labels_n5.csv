@@ -1,7 +1,0 @@
-Domain,Cultivation_System,All,PM,SM,All_Common_Large_Eval_Pct,PM_Common_Large_Eval_Pct,SM_Common_Large_Eval_Pct
-Formula,Synecoculture,bin 5/5: high signed-tail side (0.1%),Limited common support,bin 3/5: middle signed-cutoff region (15.9%),0.129500,0.000000,15.858586
-Formula,Conventional,bin 1/5: low signed-tail side (86.3%),bin 2/5: low signed-tail side (70.9%),bin 2/5: low signed-tail side (13.9%),86.262626,70.883838,13.914141
-Brite,Synecoculture,bin 3/5: middle signed-cutoff region (11.4%),bin 3/5: middle signed-cutoff region (12.6%),bin 3/5: middle signed-cutoff region (4.5%),11.414141,12.626263,4.494949
-Brite,Conventional,bin 2/5: low signed-tail side (89.5%),bin 2/5: low signed-tail side (84.6%),bin 1/5: low signed-tail side (74.2%),89.545455,84.621212,74.191919
-Pathway,Synecoculture,bin 3/5: middle signed-cutoff region (11.2%),bin 3/5: middle signed-cutoff region (13.0%),bin 3/5: middle signed-cutoff region (15.3%),11.212121,12.954545,15.303030
-Pathway,Conventional,bin 1/5: low signed-tail side (96.0%),bin 1/5: low signed-tail side (93.9%),bin 1/5: low signed-tail side (93.9%),95.959596,93.939394,93.939394
